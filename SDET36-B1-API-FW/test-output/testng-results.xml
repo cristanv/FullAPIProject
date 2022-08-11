@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[connectionsuccessul]]>
+    </line>
+    <line>
+      <![CDATA[TY_PROJ_1802]]>
+    </line>
+    <line>
+      <![CDATA[connction close]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2789" started-at="2022-08-11T11:29:16 IST" finished-at="2022-08-11T11:29:19 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2789" started-at="2022-08-11T11:29:16 IST" finished-at="2022-08-11T11:29:19 IST">
+      <class name="TaskF.createprojectAndVerifyInthprojectInDataBase">
+        <test-method status="PASS" signature="bsConsfig()[pri:0, instance:TaskF.createprojectAndVerifyInthprojectInDataBase@2e3fc542]" name="bsConsfig" is-config="true" duration-ms="516" started-at="2022-08-11T11:29:16 IST" finished-at="2022-08-11T11:29:16 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[connectionsuccessul]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsConsfig -->
+        <test-method status="PASS" signature="CreateAndVerifyProjectInData()[pri:0, instance:TaskF.createprojectAndVerifyInthprojectInDataBase@2e3fc542]" name="CreateAndVerifyProjectInData" duration-ms="2771" started-at="2022-08-11T11:29:16 IST" finished-at="2022-08-11T11:29:19 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TY_PROJ_1802]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateAndVerifyProjectInData -->
+        <test-method status="PASS" signature="asConfig()[pri:0, instance:TaskF.createprojectAndVerifyInthprojectInDataBase@2e3fc542]" name="asConfig" is-config="true" duration-ms="7" started-at="2022-08-11T11:29:19 IST" finished-at="2022-08-11T11:29:19 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[connction close]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- TaskF.createprojectAndVerifyInthprojectInDataBase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
