@@ -21,15 +21,15 @@ public class UsingBearerToken {
 		hm.put("description", "api framework");
 		
 		given()
-		 .auth()
-		 .oauth2("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")
+		 .auth().oauth2("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")
 		 .body(hm)
 		 .contentType(ContentType.JSON)
 		 
 	    .when()
 	     .post("/user/repos")
 	     
-	    .then().log().all();
+	    .then()
+	    .log().all();
 		
 	}
 

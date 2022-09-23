@@ -16,7 +16,6 @@ public class createUpdategetAndDelete {
 	@Test
 	public void createUpdategetAndDelete() {
 		
-		
 		baseURI="http://localhost";
 		port=8084;
 		
@@ -27,8 +26,9 @@ public class createUpdategetAndDelete {
 	     Response resp = given()
 	   		  .body(pLib)
 	   		  .contentType(ContentType.JSON)
-	           .when()
+	          .when()
 	              .post("/addProject");
+	     
 	              
 	         //capture the project id
 	   		String proId = resp.jsonPath().get("projectId");

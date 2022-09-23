@@ -13,8 +13,7 @@ public class basicPreEmptiveAuthLikeBasicAuth {
 		port = 8084;
 		
 		given()
-		  .auth()
-		  .preemptive().basic("rmgyantra", "rmgy@9999")
+		  .auth().preemptive().basic("rmgyantra", "rmgy@9999")
 		.when()
 		   .get("/login")
 		 .then()

@@ -36,7 +36,7 @@ public class CreateProjectwithHashMap {
 				 .post("/addProject")
 				 
 				.then()
-				 .assertThat().statusCode(201)
+				 .assertThat().statusCode(200)
 				 .log().all();	
 		
 	}
